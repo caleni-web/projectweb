@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caleni | Ciencia a la medida de tu raíz</title>
+  <meta name="description" content="Kit de cuidado capilar inteligente Caleni: peine micro-dosificador de sérum, tiras detectoras de daño y tratamientos especializados contra caída y caspa." />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+
+  <!-- Tipografías Google Fonts: Cormorant Garamond (Editorial/Lujo) + Plus Jakarta Sans (Moderna/Limpia) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Iconos Lucide -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Barra Superior Motivacional & Cupones -->
+  <div class="top-banner">
+    <p id="motivational-ticker">✨ Tu cabello tiene necesidad, Caleni tiene soluciones • Usa el código <strong>CALENI15</strong> para 15% DCTO</p>
+  </div>
+
+  <!-- Navegación Principal -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Logo Oficial Caleni -->
+      <a href="#" class="brand-logo" aria-label="Caleni Inicio">
+        <img src="assets/logo.png" alt="Caleni - Ciencia a la medida de tu raíz" class="brand-logo-img" />
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#como-funciona">Manual de Uso</a>
+        <a href="#diagnostico">Prueba de Daño</a>
+        <a href="#productos">Kits y Sérums</a>
+        <a href="#nosotros">Misión y Visión</a>
+        <a href="#asesoria">Asesoría</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="cart-btn" id="open-cart-btn" aria-label="Abrir carrito">
+          <i data-lucide="shopping-bag"></i>
+          <span class="cart-badge" id="cart-count">0</span>
+        </button>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menú">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="pill-tag">KIT DE CUIDADO CAPILAR INTELIGENTE</span>
+        <h1>Ciencia a la medida de tu raíz.</h1>
+        <p class="hero-subtitle">
+          <strong>Tu cabello tiene necesidad, Caleni tiene soluciones.</strong> Combina nuestro peine micro-dosificador de mango de corcho, sérums botánicos activos y cintillos indicadores para diagnosticar y transformar tu salud capilar paso a paso.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#productos" class="btn btn-primary">Elegir mi Kit Caleni</a>
+          <a href="#diagnostico" class="btn btn-outline">Probar Escala de Diagnóstico</a>
+        </div>
+
+        <div class="hero-features">
+          <div class="h-feat">
+            <i data-lucide="sparkles"></i>
+            <span>Desenreda sin dañar</span>
+          </div>
+          <div class="h-feat">
+            <i data-lucide="feather"></i>
+            <span>Ligero y resistente</span>
+          </div>
+          <div class="h-feat">
+            <i data-lucide="activity"></i>
+            <span>Prueba de daño 1–5</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="image-frame">
+          <img
+            src="assets/caleni-kit.jpg"
+            alt="Kit de Cuidado Capilar Caleni con peine dispensador, elixir capilar y tiras indicadoras"
+          />
+          <div class="floating-quote">
+            <span>“Tu cabello, siempre contigo ♡”</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Frase Motivacional Intermedia -->
+  <section class="quote-strip">
+    <div class="container">
+      <blockquote>
+        “Belleza y cuidado en cada detalle: escuchar lo que tu raíz necesita hoy es el primer paso para devolverle su fuerza natural mañana.”
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Manual Interactivo / Cómo Funciona -->
+  <section class="section manual-section" id="como-funciona">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">MANUAL DE INSTRUCCIONES</span>
+        <h2>¿Cómo funciona el sistema Caleni?</h2>
+        <p>Un ecosistema diseñado para diagnosticar, aplicar con precisión en la raíz y medir tu progreso real.</p>
+      </div>
+
+      <div class="steps-grid">
+        <!-- Paso 1 -->
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <div class="step-icon"><i data-lucide="scan-line"></i></div>
+          <h3>Diagnóstico con Cintillo / Tira</h3>
+          <p>Desliza la tira indicadora sobre una sección limpia de tu cuero cabelludo y hebras. El reactivo detecta al instante si tu necesidad principal es <strong>Caída de Cabello</strong> o <strong>Caspa</strong>, ubicándote en nuestra escala del 1 al 5.</p>
+          <span class="step-tip">Evaluación continua semana a semana</span>
+        </div>
+
+        <!-- Paso 2 -->
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <div class="step-icon"><i data-lucide="droplets"></i></div>
+          <h3>Carga y Micro-Dosificación</h3>
+          <p>Vierte el sérum Caleni elegido dentro del depósito superior del peine. Al deslizarlo desde las puntas hasta la raíz, <strong>el elixir desciende suavemente por las puntitas de las cerdas</strong>, distribuyéndose sin desperdicio ni manos grasosas.</p>
+          <span class="step-tip">Aplicación uniforme directo al folículo</span>
+        </div>
+
+        <!-- Paso 3 -->
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <div class="step-icon"><i data-lucide="trending-up"></i></div>
+          <h3>Monitoreo Progresivo</h3>
+          <p>Con el uso continuo, vuelve a utilizar una tira detectora cada 15 días. Podrás comprobar visualmente cómo el indicador avanza hacia los niveles óptimos de hidratación, equilibrio sebáceo y anclaje capilar.</p>
+          <span class="step-tip">Resultados visibles y medibles</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Simulador Interactivo de la Tira Indicadora (Escala 1 a 5 del empaque) -->
+  <section class="section diagnostic-section" id="diagnostico">
+    <div class="container">
+      <div class="diagnostic-box">
+        <div class="diag-info">
+          <span class="section-kicker">PRUEBA DE DAÑO CALENI</span>
+          <h2>Interpreta tu tira indicadora</h2>
+          <p>Selecciona el nivel del <strong>1 al 5</strong> que marcó tu cintillo indicador para conocer el estado de tu cabello y el sérum exacto que necesitas:</p>
+
+          <div class="strip-selector" role="group" aria-label="Escala de daño del 1 al 5">
+            <button class="strip-btn active" data-level="1" style="--strip-color: #E6C875;">
+              <span class="lvl-num">1</span>
+              <span class="lvl-label">Óptimo</span>
+            </button>
+            <button class="strip-btn" data-level="2" style="--strip-color: #D4B459;">
+              <span class="lvl-num">2</span>
+              <span class="lvl-label">Leve</span>
+            </button>
+            <button class="strip-btn" data-level="3" style="--strip-color: #B69844;">
+              <span class="lvl-num">3</span>
+              <span class="lvl-label">Moderado</span>
+            </button>
+            <button class="strip-btn" data-level="4" style="--strip-color: #8E7835;">
+              <span class="lvl-num">4</span>
+              <span class="lvl-label">Alerta</span>
+            </button>
+            <button class="strip-btn" data-level="5" style="--strip-color: #5C4E24;">
+              <span class="lvl-num">5</span>
+              <span class="lvl-label">Crítico</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="diag-result-card" id="diag-result">
+          <div class="result-header">
+            <span class="result-badge" id="res-badge">Nivel 1 • Equilibrio Natural</span>
+            <h3 id="res-title">Raíz Saludable y Protegida</h3>
+          </div>
+          <p id="res-desc">Tu cuero cabelludo mantiene un pH equilibrado y buena densidad folicular. Ideal para mantenimiento preventivo con cualquiera de nuestros dos sérums botánicos.</p>
+          <div class="result-recommendation">
+            <strong>Recomendación Caleni:</strong>
+            <span id="res-rec">Uso preventivo 2 veces por semana con el peine micro-dosificador.</span>
+          </div>
+          <a href="#productos" class="btn btn-primary btn-sm">Ver Tratamientos Recomendados</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catálogo de Productos (2 Kits + 2 Sérums + Repuestos) -->
+  <section class="section products-section" id="productos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">SOLUCIONES ESPECIALIZADAS</span>
+        <h2>Elige tu tratamiento Caleni</h2>
+        <p>Dos fórmulas concentradas diseñadas exclusivamente para combatir la <strong>caída del cabello</strong> y la <strong>caspa</strong>.</p>
+      </div>
+
+      <!-- Filtro rápido -->
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">Todos los productos</button>
+        <button class="filter-btn" data-filter="kits">Kits Completos</button>
+        <button class="filter-btn" data-filter="serums">Sérums (30 ml)</button>
+        <button class="filter-btn" data-filter="accesorios">Cintillos Indicadores</button>
+      </div>
+
+      <div class="products-grid" id="products-grid">
+        <!-- Se renderiza dinámicamente desde js/app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Misión, Visión y Filosofía -->
+  <section class="section about-section" id="nosotros">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-kicker">NUESTRA ESENCIA</span>
+        <h2>Ciencia botánica con propósito</h2>
+      </div>
+
+      <div class="mv-grid">
+        <div class="mv-card">
+          <div class="mv-icon"><i data-lucide="compass"></i></div>
+          <h3>Nuestra Misión</h3>
+          <p>Democratizar el cuidado capilar personalizado mediante herramientas inteligentes y fórmulas botánicas de alta pureza, permitiendo que cada persona diagnostique, trate y compruebe la recuperación real de su cabello desde casa.</p>
+        </div>
+
+        <div class="mv-card">
+          <div class="mv-icon"><i data-lucide="eye"></i></div>
+          <h3>Nuestra Visión</h3>
+          <p>Consolidarnos como la marca líder en innovación dermocosmética sostenible en Latinoamérica, reemplazando las rutinas genéricas por soluciones medibles, respetuosas con el medio ambiente y centradas en la salud real de la raíz.</p>
+        </div>
+
+        <div class="mv-card">
+          <div class="mv-icon"><i data-lucide="heart-handshake"></i></div>
+          <h3>Compromiso Caleni</h3>
+          <p>Creemos en la transparencia total: empaques eco-amigables, mango de corcho natural ergonómico, cero pruebas en animales y acompañamiento cercano en cada etapa de tu proceso capilar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Asesoría Personalizada (WhatsApp para otros problemas capilares) -->
+  <section class="section advisory-section" id="asesoria">
+    <div class="container advisory-grid">
+      <div class="advisory-content">
+        <span class="section-kicker">ATENCIÓN PERSONALIZADA</span>
+        <h2>¿Tu cabello presenta otro tipo de problema?</h2>
+        <p>Nuestros kits estándar están formulados específicamente para <strong>caída de cabello</strong> y <strong>caspa</strong>. Si experimentas sensibilidad extrema, dermatitis, resequedad severa u otra condición especial, nuestro equipo especialista te asesora directamente.</p>
+
+        <form class="whatsapp-form" id="whatsapp-consult-form">
+          <div class="form-group">
+            <label for="user-name">Tu nombre</label>
+            <input type="text" id="user-name" placeholder="Ej. Camila" required />
+          </div>
+          <div class="form-group">
+            <label for="hair-issue">Cuéntanos brevemente qué notas en tu cabello</label>
+            <textarea id="hair-issue" rows="3" placeholder="Ej. Tengo el cuero cabelludo muy sensible y puntas quebradizas..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-whatsapp">
+            <i data-lucide="message-circle"></i> Iniciar consulta personalizada por WhatsApp
+          </button>
+        </form>
+      </div>
+
+      <!-- Tarjeta de Suscripción y Cupones -->
+      <div class="newsletter-card">
+        <span class="badge-gold">CLUB CALENI</span>
+        <h3>Obtén 15% de descuento en tu primer Kit</h3>
+        <p>Suscríbete para recibir consejos de salud capilar, recordatorios para tu prueba de daño quincenal y acceso anticipado a promociones.</p>
+
+        <form id="newsletter-form" class="newsletter-form">
+          <input type="email" id="newsletter-email" placeholder="tucorreo@ejemplo.com" required />
+          <button type="submit" class="btn btn-primary">Suscribirme y ver cupón</button>
+        </form>
+
+        <div id="coupon-reveal" class="coupon-box" style="display: none;">
+          <p>¡Bienvenida a la familia Caleni! Tu código de descuento es:</p>
+          <div class="coupon-code-display">
+            <span id="generated-coupon">CALENI15</span>
+            <button type="button" id="copy-coupon-btn" title="Copiar código">Copiar</button>
+          </div>
+          <small>Aplícalo directamente en tu carrito de compras.</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3 class="footer-logo">Caleni</h3>
+        <p>Ciencia a la medida de tu raíz.<br>Tu cabello, siempre contigo ♡</p>
+        <div class="social-links">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+            </svg>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4>Explorar</h4>
+        <a href="#como-funciona">Manual de Uso</a>
+        <a href="#diagnostico">Escala de Daño 1–5</a>
+        <a href="#productos">Kits y Sérums</a>
+        <a href="#nosotros">Misión y Visión</a>
+      </div>
+
+      <div class="footer-links">
+        <h4>Cupones Activos</h4>
+        <p><code>CALENI15</code> — 15% de descuento</p>
+        <p><code>RAIZ20</code> — S/ 20.00 de descuento en Kits</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Caleni Cuidado Capilar. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Carrito Lateral Deslizable (Drawer) -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Carrito de compras">
+    <div class="cart-header">
+      <h3>Tu Carrito Caleni</h3>
+      <button id="close-cart-btn" class="close-btn" aria-label="Cerrar carrito">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+
+    <div class="cart-items" id="cart-items">
+      <!-- Productos agregados dinámicamente -->
+    </div>
+
+    <div class="cart-footer">
+      <!-- Sección de Cupón -->
+      <div class="cart-coupon">
+        <input type="text" id="coupon-input" placeholder="Código de cupón (ej. CALENI15)" />
+        <button type="button" id="apply-coupon-btn">Aplicar</button>
+      </div>
+      <p id="coupon-feedback" class="coupon-feedback"></p>
+
+      <div class="cart-totals">
+        <div class="total-row">
+          <span>Subtotal:</span>
+          <span id="cart-subtotal">S/ 0.00</span>
+        </div>
+        <div class="total-row discount-row" id="discount-row" style="display: none;">
+          <span>Descuento aplicado:</span>
+          <span id="cart-discount">- S/ 0.00</span>
+        </div>
+        <div class="total-row grand-total">
+          <span>Total a pagar:</span>
+          <span id="cart-total">S/ 0.00</span>
+        </div>
+      </div>
+
+      <button class="btn btn-primary btn-block" id="checkout-whatsapp-btn">
+        <i data-lucide="send"></i> Completar Pedido por WhatsApp
+      </button>
+    </div>
+  </aside>
+
+  <!-- Botón Flotante de WhatsApp Oficial -->
+  <a
+    href="https://wa.me/51999999999?text=Hola%20Caleni%2C%20quisiera%20recibir%20asesor%C3%ADa%20personalizada%20sobre%20mi%20cabello."
+    target="_blank"
+    rel="noopener noreferrer"
+    class="whatsapp-float"
+    aria-label="Contactar por WhatsApp"
+  >
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.031 2c-5.516 0-9.969 4.453-9.969 9.969 0 1.758.459 3.473 1.332 4.986L2 22l5.184-1.359a9.927 9.927 0 0 0 4.847 1.258h.004c5.515 0 9.969-4.454 9.969-9.969A9.93 9.93 0 0 0 19.08 4.91 9.92 9.92 0 0 0 12.031 2zm5.822 14.285c-.246.691-1.434 1.324-1.992 1.406-.508.074-1.152.105-1.859-.117-.43-.137-.98-.32-1.684-.625-2.961-1.277-4.895-4.258-5.043-4.453-.148-.195-1.203-1.602-1.203-3.055 0-1.453.762-2.168 1.031-2.461.27-.293.59-.367.785-.367.195 0 .391.004.562.012.18.008.422-.07.66.504.246.59.836 2.039.91 2.188.074.148.121.32.023.516-.098.195-.148.316-.293.488-.148.172-.309.383-.441.516-.148.148-.301.309-.129.605.172.293.766 1.262 1.645 2.043 1.133 1.008 2.086 1.32 2.383 1.469.293.148.465.125.637-.074.172-.195.738-.859.934-1.152.195-.293.391-.246.66-.148.27.098 1.719.812 2.012.957.293.148.488.223.562.344.074.125.074.715-.172 1.406z"/>
+    </svg>
+  </a>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
